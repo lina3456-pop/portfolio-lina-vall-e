@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projet 4 — Montage vidéo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header" id="top">
+  <nav class="nav container" aria-label="Navigation principale">
+
+    <ul class="nav__links" id="nav-links">
+  <li><a class="nav__link" href="accueil.html">ACCUEIL</a></li>
+  <li><a class="nav__link" href="index.html#apropos">À PROPOS</a></li>
+  <li><a class="nav__link" href="index.html#projets">MES EXPÉRIENCES,<br>MES PROJETS</a></li>
+  <li><a class="nav__link" href="index.html#contact">CONTACT</a></li>
+</ul>
+
+  </nav>
+  <div class="nav-rule container" aria-hidden="true"></div>
+</header>
+
+<main class="container section">
+
+  <header class="section__header">
+    <p class="section__kicker">PROJET 4</p>
+    <h1 class="section__title">Montage vidéo — DaVinci & Premiere Pro</h1>
+  </header>
+
+  <div class="two-cols">
+
+    <!-- IMAGE OU APERÇU DU PROJET -->
+    <figure class="card">
+      <img
+        src="images/projet-4.jpg"
+        alt="Aperçu du projet de montage vidéo"
+        loading="lazy"
+        style="width:100%; height:auto; border-radius:12px;"
+      >
+    </figure>
+
+    <!-- TEXTE EXPLICATIF -->
+    <article class="card">
+      <h2 class="card__title">Présentation du projet</h2>
+
+      <p>
+        À travers différents projets, j’ai pu m’initier au montage vidéo et à l’adaptation des contenus pour le web 
+        et les réseaux sociaux. J’ai appris à structurer une vidéo, sélectionner les plans pertinents, rythmer le montage 
+        et intégrer des éléments graphiques tels que des titres, transitions et effets visuels.
+      </p>
+
+      <p>
+        J’ai également développé des compétences techniques en utilisant des logiciels professionnels comme 
+        <strong>DaVinci Resolve et Adobe Premiere Pro</strong>, ce qui m’a permis de me familiariser avec des outils 
+        de montage avancés, l’étalonnage des couleurs et le traitement du son.
+      </p>
+
+      <p>
+        Enfin, j’ai travaillé sur l’optimisation des formats selon les plateformes, notamment en réalisant des vidéos 
+        en format vertical pour le mobile et en format horizontal pour YouTube ou les sites web. Ce travail m’a permis 
+        de mieux comprendre les attentes des audiences en ligne et l’importance d’un montage clair, dynamique et engageant.
+      </p>
+
+      <p class="small-title">Compétences développées :</p>
+      <ul class="list">
+        <li>Montage vidéo professionnel</li>
+        <li>Utilisation de DaVinci Resolve</li>
+        <li>Utilisation d’Adobe Premiere Pro</li>
+        <li>Étalonnage des couleurs</li>
+        <li>Adaptation des formats (vertical / horizontal)</li>
+      </ul>
+    </article>
+
+  </div>
+</main>
+
+<footer class="footer container">
+  <p>© <span id="year"></span> — Lina Vallée-Spadoni</p>
+  <a class="to-top" href="#top">Retour en haut ↑</a>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+
