@@ -591,3 +591,16 @@ textarea:focus{
   outline: 2px solid black;
   outline-offset: 2px;
 }
+/* Corrections accessibilité */
+
+a, button {
+  padding: 10px 15px;
+}
+
+body {
+  color: #222;
+}
+
+a {
+  color: #000;
+}
