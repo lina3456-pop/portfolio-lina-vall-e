@@ -1,170 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Portfolio Lina Vallée-Spadoni</title>
-
-  <meta name="description" content="Portfolio de Lina Vallée-Spadoni, étudiante en BUT MMI. Découvrez mes projets en design graphique, audiovisuel et développement web.">
-
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Accueil</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header class="site-header" id="top">
-  <nav class="nav container" aria-label="Navigation principale">
-    <ul class="nav__links" id="nav-links">
-      <li><a class="nav__link" href="accueil.html">Accueil</a></li>
-      <li><a class="nav__link" href="#apropos">À propos</a></li>
-      <li><a class="nav__link" href="#projets">Mes experiences,<br>Mes projets</a></li>
-      <li><a class="nav__link" href="#contact">Contact</a></li>
-    </ul>
+<header class="navbar">
+  <a href="index.html" class="logo">LINA.</a>
+  <nav class="nav-links">
+    <a href="index.html">Accueil</a>
+    <a href="parcours.html">Parcours</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
   </nav>
-  <div class="nav-rule container"></div>
+  <a href="contact.html" class="btn">Discutons •</a>
 </header>
 
-<main id="accueil">
-
-  <section class="hero container section">
-    <div class="hero__title">
-      <h1 class="display">PORTFOLIO</h1>
-      <p class="hero__subtitle">ÉTUDIANTE MMI — 2025–2026</p>
+<section class="hero">
+  <div class="fade">
+    <p class="small-title">Portfolio Étudiant</p>
+    <h1>Design <br> avec <span class="italic">sens.</span></h1>
+    <p>
+     Je m’appelle Lina Vallée et je suis étudiante en première année de BUT Métiers du Multimédia et de l’Internet. Passionnée par le numérique et la création, j’aime imaginer et concevoir des projets mêlant design, communication et univers digital.
+     À travers mes études et mes projets personnels, je développe progressivement mes compétences en création visuelle, audiovisuel et développement web. Curieuse et créative, j’aime découvrir de nouvelles idées, expérimenter et donner vie à des projets à la fois esthétiques et fonctionnels.
+     Ce portfolio me permet de partager mon univers, mes réalisations ainsi que mon évolution au fil de mon parcours dans le multimédia.
+    </p>
+    <div class="hero-buttons">
+      <a href="parcours.html" class="btn">Voir mes projets →</a>
+      <a href="apropos.html" class="btn-outline">Mon univers</a>
     </div>
-  </section>
+  </div>
 
-  <section class="container section" id="apropos" data-section>
-    <header class="section__header">
-      <p class="section__kicker">À PROPOS</p>
-      <h2 class="section__title">À PROPOS DE MOI</h2>
-    </header>
+  <div class="hero-image">
+    <div class="hero-shape"></div>
+  </div>
+</section>
 
-    <div class="two-cols">
-     
-      <article class="card">
-        <h3 class="card__title">PRÉSENTATION</h3>
+<section class="about-home">
+  <div class="about-text">
+    <p class="small-title">À propos</p>
+    <h2>Je suis Lina,<br> étudiante en BUT <span class="italic">Métiers du multimédia</span> et de l'Internet.</h2>
+    <p>
+      Je développe progressivement mon univers créatif à travers des projets mêlant design, communication et digital.
+    </p>
+  </div>
 
-        <p>
-          Je m’appelle Lina Vallée et je suis étudiante en première année de BUT
-          Métiers du Multimédia et de l’Internet. Passionnée par le numérique et la création,
-          j’aime explorer différents univers comme le design graphique, l’audiovisuel
-          et la communication digitale.
-        </p>
+  <div class="about-visual">
+    <div class="stats">
+      <h3>1 an</h3>
+      <p>d’expérience</p>
+     </div>
+  </div>
+</section>
 
-        <p>
-          Curieuse, créative et motivée, je prends plaisir à apprendre et à développer
-          de nouvelles compétences au fil de mes projets. Ce portfolio a pour but de partager
-          mon travail, mes inspirations et mon évolution dans l’univers du multimédia.
-        </p>
-      </article>
-
-     
-      <article class="card card--muted">
-        <h3 class="card__title">MON PARCOURS & MA FORMATION</h3>
-
-        <p>
-          Titulaire d’un baccalauréat général, j’ai choisi de poursuivre mes études en MMI
-          (Métiers du Multimédia et de l’Internet) afin de développer des compétences solides
-          dans les domaines du numérique, de la communication et de la création visuelle.
-        </p>
-
-        <p>
-          Cette formation m’a permis d’acquérir des bases en développement web, en design graphique
-          et en production audiovisuelle, tout en développant ma créativité, mon sens de l’analyse
-          et ma capacité à mener des projets de manière structurée, aussi bien en autonomie
-          qu’en travail d’équipe.
-        </p>
-      </article>
+<section class="section">
+  <div class="section-header">
+    <div>
+      <p class="small-title">Projets récents</p>
+      <h2>Quelques <span class="italic">réalisations.</span></h2>
     </div>
-  </section>
+  </div>
 
-  <section class="container section" id="projets" data-section>
-    <header class="section__header">
-      <p class="section__kicker">MES EXPÉRIENCES</p>
-      <h2 class="section__title">MES PROJETS</h2>
-    </header>
-
-    <div class="projects__gallery">
-      <a href="projet1.html" class="thumb">
-        <img src="assets/projet-1.jpg" alt="Affiche design graphique projet étudiant">
-      </a>
-
-      <a href="projet2.html" class="thumb">
-        <img src="assets/projet-2.jpg" alt="Création graphique projet étudiant">
-      </a>
-
-      <a href="projet3.html" class="thumb">
-      <img src="assets/projet-3.jpg" alt="Projet audiovisuel montage vidéo étudiant">
-
-      </a>
-
-      <a href="projet4.html" class="thumb">
-        <img src="assets/projet-4.jpg" alt="Projet web développement site étudiant">
-      </a>
-
-      <a href="projet5.html" class="thumb">
-      <img src="assets/projet-5.jpg" alt="Projet créatif multimédia étudiant">
-      </a>
-    </div>
-  </section>
-
-  <section class="container section" id="contact" data-section>
-    <header class="section__header">
-      <p class="section__kicker">CONTACT</p>
-      <h2 class="section__title">ME CONTACTER</h2>
-    </header>
-
-    <div class="contact-grid">
-     
-      <div class="contact-info card">
-        <p class="contact__name">LINA VALLÉE-SPADONI</p>
-        <p class="contact__role">ÉTUDIANTE EN BUT MMI</p>
-
-        <p class="contact__quote">
-          « Créer, explorer, structurer, collaborer »
-        </p>
-
-        <div class="contact__items">
-          <a class="contact__item" href="mailto:lina.valleespadoni@gmail.com">
-            <span class="icon" aria-hidden="true">✉</span>
-            <span>lina.valleespadoni@gmail.com</span>
-          </a>
-
-          <a class="contact__item" href="tel:+33651578792">
-            <span class="icon" aria-hidden="true">✆</span>
-            <span>06 51 57 87 92</span>
-          </a>
-
-      <a class="contact__item" href="https://instagram.com/lm.valleespadoni" target="_blank" rel="noopener">
-            <span class="icon" aria-hidden="true">⌁</span>
-            <span>@lm.valleespadoni</span>
-          </a>
-        </div>
+  <div class="projects-grid">
+    <a href="projet1.html" class="project-card">
+      <div class="project-img"></div>
+      <div class="project-content">
+        <span>Codage</span>
+        <h3>Planétarium intéractif →</h3>
       </div>
+    </a>
 
-      <div class="contact-form-wrapper card">
-        <h3 class="card__title">Envoyez-moi un message</h3>
-
-        <form class="contact-form" action="#" method="post">
-          <label for="name" class="sr-only">Votre nom</label>
-          <input id="name" type="text" name="name" placeholder="Votre nom" required>
-
-          <label for="email" class="sr-only">Votre email</label>
-          <input id="email" type="email" name="email" placeholder="Votre email" required>
-
-          <label for="message" class="sr-only">Votre message</label>
-          <textarea id="message" name="message" placeholder="Votre message" required></textarea>
-
-          <button type="submit" class="send-btn">
-            Envoyer votre<br>message
-          </button>
-        </form>
+    <a href="projet2.html" class="project-card">
+      <div class="project-img"></div>
+      <div class="project-content">
+        <span>Photoshop</span>
+        <h3>Vitrine Parfum →</h3>
       </div>
-    </div>
-  </section>
+    </a>
 
-</main>
+    <a href="projet3.html" class="project-card">
+      <div class="project-img"></div>
+      <div class="project-content">
+        <span>Refonte de site</span>
+        <h3>KINFOLK SHOP →</h3>
+      </div>
+    </a>
+  </div>
+</section>
 
+<footer class="footer">
+  <h2>Un projet <br> en tête ?</h2>
+  <br>
+  <a href="contact.html" class="btn">Discutons de votre projet</a>
+
+  <div class="footer-bottom">
+    <p>© 2026 Lina. Tous droits réservés.</p>
+    <p>Instagram · LinkedIn </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
