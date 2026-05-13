@@ -1,3 +1,9 @@
+<?php
+$pdo = new PDO("mysql:host=localhost;dbname=monportfolio;charset=utf8", "root", "");
+
+$socialQuery = $pdo->query("SELECT * FROM social_media LIMIT 1");
+$social = $socialQuery->fetch(PDO::FETCH_ASSOC);
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
