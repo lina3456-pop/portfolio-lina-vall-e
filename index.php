@@ -104,7 +104,17 @@ $social = $socialQuery->fetch(PDO::FETCH_ASSOC);
 
   <div class="footer-bottom">
     <p>© 2026 Lina. Tous droits réservés.</p>
-    <p>Instagram · LinkedIn </p>
+    <p>
+  <a href="<?php echo $social['instagram']; ?>" target="_blank">
+    Instagram
+  </a>
+
+  ·
+
+  <a href="<?php echo $social['linkedin']; ?>" target="_blank">
+    LinkedIn
+  </a>
+</p>
   </div>
 </footer>
 
